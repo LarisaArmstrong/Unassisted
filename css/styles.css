@@ -1,0 +1,92 @@
+body {
+  background-image: url(../img/wormz.png);
+}
+
+.heading {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  letter-spacing: 10px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  color: black;
+  
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Concert One', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Concert One', cursive;
+}
+
+.crack {
+  width: 15%;
+  height: 20%;
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family: 'Bungee Shade', cursive;
+  background-image: url(../img/swirl_pattern.png);
+  color: darkgreen;
+  font-size: 24px;
+}
+
+button:hover {
+  background-image: url(../img/ignasi_pattern_s.png);
+  color: black;
+  transition: background-image 0.5s;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+select {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+#result, #result2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  color: coral; 
+}
+
+#result2:hover {
+  color: darkslategrey;
+  transition: color 0.5s;
+}
+
+a {
+  text-decoration: none;
+}
+

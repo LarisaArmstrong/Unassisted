@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>DISCOVER</title>
+        
+      
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="me"
+        href="https://twitter.com/discover_more">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Concert+One" rel="stylesheet">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!-- [if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      
+     </head>
+    
+    <body>
+    <div class="heading"><h1> DISCOVER YOUR FORTUNE AND <br> BIRTHSTONE NOW!</h1></div>
+    <!--<center><div class="image"><img src="img/cookie.jpg"></div></center>-->
+      
+    <div class="form">
+      
+    <center>
+    <form class="name">
+    <h2>What is your name?</h2>
+    <input type="text" name="firstname" id="name"><br>
+    </form>  
+    
+    <form id="gender">
+    <h2> Select Your Gender:</h2>
+    <input type="radio" name="gender" value="male" id="genderM"> Male<br>
+    <input type="radio" name="gender" value="female" id="genderF"> Female<br>
+    </form>
+    <br>
+     
+    <h2> Select Your Birthday Month:</h2>  
+    <select id="select">
+    <option value="january">January</option>
+    <option value="february">February</option>
+    <option value="march">March</option>
+    <option value="april">April</option>
+    <option value="may">May</option>
+    <option value="june">June</option>
+    <option value="july">July</option>
+    <option value="august">August</option>
+    <option value="september">September</option>
+    <option value="october">October</option>
+    <option value="november">November</option>
+    <option value="december">December</option>
+    </select>
+    
+    </center>
+    </div>
+      
+    <center><button class="crack" onclick="fortune ()">CRACK OPEN</button></center>
+    
+    <center><div id="result"></div></center>
+      <center><a href="https://www.americangemsociety.org/en/birthstones"><div id="result2"></div></a></center>  
+      
+    <center><h3>SHARE WITH YOUR FRIENDS NOW!</h3></center>
+    <center>
+      <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?text=(paste discovery here)"
+      data-size="large">
+      Tweet</a>
+    </center>
+      
+    
+    <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+      }(document, "script", "twitter-wjs"));</script>
+      
+      <script src="js/main.js"></script>
+    </body>
+    
+</html>
